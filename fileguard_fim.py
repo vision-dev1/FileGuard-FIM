@@ -12,7 +12,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from plyer import notification
 
-# Configure logging
+
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs', 'activity.log')
 logging.basicConfig(filename=LOG_PATH, level=logging.INFO, format='%(message)s')
 
@@ -25,7 +25,7 @@ class FileGuardHandler(FileSystemEventHandler):
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         log_message = f"{timestamp} - {event_type} - {src_path}"
         
-        # Log to file
+
         logging.info(log_message)
         
         # Desktop Notification
@@ -39,7 +39,7 @@ class FileGuardHandler(FileSystemEventHandler):
         except Exception:
             pass # Graceful failure for notifications
 
-        # Email Alert
+        
         self.send_email_alert(event_type, src_path, timestamp)
 
     def send_email_alert(self, event_type, src_path, timestamp):
