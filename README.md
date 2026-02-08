@@ -95,7 +95,7 @@ All detected activities are recorded in `logs/activity.log` with precise timesta
 This tool is intended for defensive security monitoring. Protect your `config.json` file as it contains sensitivity email credentials (`chmod 600 config.json` is recommended).
 
 ## 📄 License
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 ## Author
