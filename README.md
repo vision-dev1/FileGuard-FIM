@@ -100,7 +100,6 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 
 ## Author
 **Vision KC**
-
 [GitHub](https://github.com/vision-dev1)<br>
 [Website](https://visionkc.com.np)
 
