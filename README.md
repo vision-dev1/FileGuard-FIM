@@ -99,7 +99,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 ## Author
-**Vision KC**
+**Vision KC**<br>
 [GitHub](https://github.com/vision-dev1)<br>
 [Website](https://visionkc.com.np)
 
